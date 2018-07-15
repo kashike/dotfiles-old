@@ -1,0 +1,27 @@
+[user]
+  email = kashike@vq.lc
+  name = kashike
+
+[alias]
+  amend = commit --amend
+  b = branch
+  co = checkout
+  cp = cherry-pick
+  d = diff
+  ds = diff --staged
+  r = rebase
+  ra = rebase --abort
+  rc = rebase --continue
+  ri = rebase --interactive
+  rs = rebase --skip
+
+[core]
+  editor = nano
+
+[url "git@github.com:"]
+  insteadOf = "gh:"
+  pushInsteadOf = "gh:"
+
+[url "git@gist.github.com:"]
+  insteadOf = "gist:"
+  pushInsteadOf = "gist:"
