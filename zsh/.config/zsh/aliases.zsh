@@ -1,3 +1,2 @@
-# git
 alias git='hub'
-alias g='git'
+alias open='xdg-open'
