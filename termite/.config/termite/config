@@ -1,6 +1,6 @@
 [options]
 font = Hack Regular 10
-browser = google-chrome-stable
+browser = firefox-nightly
 cursor_blink = on
 cursor_shape = ibeam
 clickable_url = true
