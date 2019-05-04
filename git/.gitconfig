@@ -22,6 +22,10 @@
   insteadOf = "gh:"
   pushInsteadOf = "gh:"
 
+[url "git@gitlab.com:"]
+  insteadOf = "gl:"
+  pushInsteadOf = "gl:"
+
 [url "git@gist.github.com:"]
   insteadOf = "gist:"
   pushInsteadOf = "gist:"
