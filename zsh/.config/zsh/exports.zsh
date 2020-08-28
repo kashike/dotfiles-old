@@ -1,2 +1,0 @@
-# yes
-export EDITOR='nano'
