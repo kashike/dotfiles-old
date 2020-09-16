@@ -1,15 +1,24 @@
 [alias]
   amend = commit --amend
   b = branch
+  cl = clone
   co = checkout
   cp = cherry-pick
   d = diff
   ds = diff --staged
+  f = fetch
+  m = merge
+  pl = pull
+  ps = push
   r = rebase
   ra = rebase --abort
   rc = rebase --continue
   ri = rebase --interactive
   rs = rebase --skip
+  st = stash
+
+[pull]
+  ff = only
 
 [url "git@github.com:"]
   insteadOf = "gh:"
