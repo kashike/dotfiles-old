@@ -2,6 +2,7 @@
   amend = commit --amend
   b = branch
   cl = clone
+  cm = commit
   co = checkout
   cp = cherry-pick
   d = diff
@@ -15,7 +16,8 @@
   rc = rebase --continue
   ri = rebase --interactive
   rs = rebase --skip
-  st = stash
+  st = status
+  sw = switch
 
 [pull]
   ff = only
